@@ -46,9 +46,7 @@
 </head>
 
 <body class="bg-auto bg-cover bg-center min-h-screen" style="background-image: url(./background.png)">
-  <!-- <div x-data="{}" x-subscribe>
-      <span x-text="$store.application.name"></span>
-    </div> -->
+
   <div x-data="main()" x-init="fetchCountries()" class="flex justify-center pt-24 relative">
     <div x-show="!finishGame" class="max-h-screen w-1/3 flex-col mx-auto justify-center">
       <p class="text-white font-bold text-3xl">COUNTRY QUIZ</p>
